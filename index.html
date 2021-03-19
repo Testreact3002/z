@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<link type="text/css" rel="stylesheet" href="index.css">
+<div class="container">
+<div class="paranja"><div class="popup popup_rating">
+   <div class="popup__header">Рейтинг игроков</div> <button class="popup__close"><img src="img/popup-close.png"></button>
+   <div class="popup__body">
+   <table class='rating-table'><thead class='rating-table__header'><tr class='rating-table__header-row'><th class='rating-table__th rating-table__place-column' colspan="2">Место</th><th class='rating-table__th rating-table__fio-column'>Имя Фамилия</th><th class='rating-table__th rating-table__exp-column'>Опыт</th></tr></thead>
+<tbody class='rating-table__body'>
+</tbody>
+</table>
+   </div>
+</div></div>
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="980" height="630"
+     viewBox="0 0 980 630">
+
+<image href="img/map.png" width="980" height="630" opacity="0"></image>
+<image href="img/field.png" width="980" height="630" opacity="1"></image>
+<image href="img/way.png" width="900" height="525" x="75" y="22" opacity="1"></image>
+<image href="img/buttons.png" width="980" height="630" x="0" y="0"></image>
+<image href="img/icon.png" x="-10" y="-70"> 
+  <animateMotion id="moveIcon"
+        fill="freeze"
+        dur="30s"
+        repeatCount="1"
+        from="443.00,504.00"
+        to="389.00,465.00"
+        path="M 443.00,504.00"
+        
+       /> 
+
+
+</image>
+</svg>
+<div class="start-text">Первый<br>курс</div>
+<div class="finish-text">Выпускной</div>
+
+<div class="un-panel">
+	<div class="friendlist">
+		<button class="friendlist__before"><img src="img/left.png" class='friendlist-before-icon'></button>
+		<ul class="friendlist__list"><li class="friendlist__item"></li><li class="friendlist__item"></li><li class="friendlist__item"></li><li class="friendlist__item"></li><li class="friendlist__item"></li><li class="friendlist__item"></li><li class="friendlist__item"></li><li class="friendlist__item"></li><li class="friendlist__item"></li><li class="friendlist__item"></li><li class="friendlist__item"></li><li class="friendlist__item"></li>
+		</ul>
+		<button class="friendlist__after"><img src="img/right.png" class='friendlist-after-icon'></button>
+	</div>
+	<button class="chatbutton un-button un-button_chat"><div class="un-button-chat-icon"></div></button>
+	<button class="un-button un-button_univer">В универ</button>
+	<button class="un-button un-button_letter"><img src="img/letter.png" class="un-button-letter-icon"></button>
+	<button class="un-button un-button_top"><img src="img/top.png" class="un-button-top-icon"></button>
+</div>
+
+</div>
+<div class="controls">
+<label><input type="checkbox" class="controls__newmail"> Новый чат</label>
+<label><input type="range" class="controls__move" min=0 max=22 value="0"> Передвинуть</label>
+</div>
+<a href="https://hh.ru/resume/6261e482ff05733f8a0039ed1f384a6276754e">Александр Шадчнев</a>
+<script src="index.js"></script>
+</body>
+</html>
